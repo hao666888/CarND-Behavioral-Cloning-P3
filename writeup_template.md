@@ -1,11 +1,5 @@
 # **Behavioral Cloning** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Behavioral Cloning Project**
 
 The goals / steps of this project are the following:
@@ -13,12 +7,11 @@ The goals / steps of this project are the following:
 * Build, a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
 * Test that the model successfully drives around track one without leaving the road
-* Summarize the results with a written report
 
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
+[image1]: ./examples/Nvidia.png "Model Visualization"
 [image2]: ./examples/placeholder.png "Grayscaling"
 [image3]: ./examples/placeholder_small.png "Recovery Image"
 [image4]: ./examples/placeholder_small.png "Recovery Image"
