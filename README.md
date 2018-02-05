@@ -18,9 +18,6 @@ The goals / steps of this project are the following:
 [image6]: ./examples/placeholder_small.png "Normal Image"
 [image7]: ./examples/placeholder_small.png "Flipped Image"
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
-
 ---
 ### Files Submitted & Code Quality
 
@@ -105,3 +102,6 @@ I used this training data for training the model. I used 3 epochs since I notice
 ### Results
 
 The vehicle is able to finish the whole lap. A video is included in the repo. Although I tried many different setup and dataset, it is still not perfect. I think it could be better, by cropping the images and performing more preprocessing like changing to grey scale. 
+
+## Rubric Points
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
