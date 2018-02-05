@@ -98,16 +98,12 @@ I then recorded the vehicle recovering from the left side and right sides of the
 
 During the testing phase, I noticed that the car run off track in certain corners. Then I recorded the car running those corners in the center lane. 
 
+After the collection process, I had around 40000 sample images. During the training phase, I also used the images took by the left and right camera. For the image tooken by the left camera, the steering angle was adjusted by plus 0.25. For the image tooken by the right camera, the steering angle was adjusted by minus 0.25. 
 
+I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-![alt text][image6]
-![alt text][image7]
+I used this training data for training the model. I used 3 epochs since I noticed that validation loss did not decrease beyond 3 epochs. This saved time versus 5 epochs. I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
-Etc ....
+### results
 
-After the collection process, I had X number of data points. I then preprocessed this data by ...
-
-
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+The vehicle is able to finish the whole lap. A video is included in the repo. Although I tried many different setup and dataset, it is still not perfect. I think it could be better, by cropping the images and performing more preprocessing like change it to grey scale. 
