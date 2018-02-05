@@ -1,7 +1,5 @@
 # **Behavioral Cloning** 
 
-**Behavioral Cloning Project**
-
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior.
 	- The simulator contains two modes, training mode and autonomous mode. We will use training mode to collect data (the turning angles for each image collected by the three cameras on the car). The autonomous mode is used for testing the model we build. 
@@ -32,7 +30,7 @@ My project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
 * model.h5 containing a trained convolution neural network 
-* writeup_report.md summarizing the results
+* README.md summarizing the results
 
 #### 2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
